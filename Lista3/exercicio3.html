@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio HTML </title>    
+    <link rel="stylesheet" type="text/css" href="../Css/lista2.css"/>
+</head>
+<body>
+    <form>
+        <table>
+            <th>Pizza 2.0</th>
+            <tr>
+                <td>
+                    <label for="nome">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="nome" name="usuario_nome" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Pizza</label>
+                </td>
+                <td>
+                    <input type="radio" name="opcao" value="1"/> 1<br />
+                    <input type="radio" name="opcao" value="2"/> 2<br />
+                    <input type="radio" name="opcao" value="3"/> 3<br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="msg">Sauce:</label>
+                </td>
+                <td>
+                    <select name="select">
+                        <option value="valor1">Valor 1</option>
+                        <option value="valor2" selected>Valor 2</option>
+                        <option value="valor3">Valor 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Optional</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="opcao2" value="1"/> 1<br />
+                    <input type="checkbox" name="opcao2" value="2"/> 2<br />
+                    <input type="checkbox" name="opcao2" value="3"/> 3<br />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="story">Instructions...</label>
+                </td>
+                <td>
+                    <textarea id="story" name="story" rows="5" cols="33">
+                        It was a dark and stormy night...
+                    </textarea>        
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Numero">Name:</label>
+                </td>
+                <td>
+                    <input type="number" id="numero" name="numero" />                            
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Range">Idade:</label>
+                </td>
+                <td>
+                    <input type="range" id="idade" name="idade" />
+                </td>
+            </tr>
+            <tr>
+                <button type="submit">Send</button>
+            </tr>
+        </table>
+    </form>
+    
+    <form>
+        <div>
+            <label for="nome">Name:</label>
+            <input type="text" id="nome" name="usuario_nome" />
+        </div>
+        <div>
+            <label for="email">Pizza</label>
+            <input type="radio" name="opcao" value="1"/> 1<br />
+            <input type="radio" name="opcao" value="2"/> 2<br />
+            <input type="radio" name="opcao" value="3"/> 3<br />
+        </div>
+        <div>
+            <label for="msg">Sauce:</label>
+            <select name="select">
+                <option value="valor1">Valor 1</option>
+                <option value="valor2" selected>Valor 2</option>
+                <option value="valor3">Valor 3</option>
+              </select>
+        </div>
+        <div>
+            <label for="email">Optional</label>
+            <input type="radio" name="opcao2" value="1"/> 1<br />
+            <input type="radio" name="opcao2" value="2"/> 2<br />
+            <input type="radio" name="opcao2" value="3"/> 3<br />
+        </div>
+        <div>
+            <label for="story">Instructions...</label>
+            <textarea id="story" name="story" rows="5" cols="33">
+                It was a dark and stormy night...
+            </textarea>
+        </div>
+        <div>
+            <label for="Numero">Name:</label>
+            <input type="number" id="numero" name="numero" />
+        </div>
+        <div>
+            <label for="Range">Idade:</label>
+            <input type="range" id="idade" name="idade" />
+        </div>
+    
+        <div class="button">
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</body>
+</html>

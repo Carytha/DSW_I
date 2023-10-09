@@ -1,0 +1,13 @@
+.img{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.box{
+    background-color: aqua;
+}
+.blocos{
+    display: inline-block;
+}
+body{
+    background-color: antiquewhite;
+}

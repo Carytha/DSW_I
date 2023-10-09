@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <style>
+        body {
+            height: 80%;
+            width: 80%;
+            margin: auto;
+        }
+
+        marquee {
+            padding-top: 20px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            text-align: center; 
+            <!-- Esta é uma linha de código comentada -->
+
+            < !--  scroll-behavior: fast; controla a velocidade -->
+            animation-duration: 10s; <!-- controla a duração -->
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <marquee behavior="alternate" direction="left" loop="3" scolldelay="40">
+            Este texto vai "rolar" da equerda para a direita.
+        </marquee>
+    </div>
+    <marquee behavior="scroll" direction="right">
+        Tô na contra-mao!
+    </marquee>
+    <marquee behavior="scroll" direction="up">
+        subindo!
+    </marquee>
+
+</body>
+
+</html>

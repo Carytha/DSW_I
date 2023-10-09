@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela dentro de Tabela</title>
+    <style>
+        th {
+          word-wrap: break-word;
+        }
+        
+        table {
+          border-collapse: collapse;
+        }
+        
+        td, th {
+          border: 1px solid lightgray;
+          padding: 8px;
+        }
+        
+        .noborder td {
+          border: none;
+        }
+       
+    </style>
+</head>
+
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>COD</th>
+                <th>DESCRIÇÃO</th>
+                <th class="noborder"></th>
+                <th class="noborder"></th>
+       
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>002</td>
+                <td>003</td>
+                <td>001</td>
+                <td>002</td>
+                <td colspan="3">REFERÊNCIAS DE CÓDIGOS</td>
+                <td>
+                    <table>
+                        <tr>
+                            <th>COD</th>
+                            <th>FUNÇÃO</th>
+                        </tr>
+                        <tr>
+                            <td>001</td>
+                            <td>002</td>
+                            <td>001</td>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+
+            
+            </tr>
+            <tr>
+                <td>AMD K-6</td>
+                <td>233</td>
+                <td>437</td>
+                <td>Maio/97</td>
+              
+            </tr>
+          
+            <tr>
+                <td>Cyrix 6x86</td>
+                <td>200</td>
+                <td>240</td>
+                <td>Maio/97</td>
+           
+            </tr>
+            <tr>
+                <td>Cyrix 6x86</td>
+                <td>233</td>
+                <td>320</td>
+                <td>Maio/97</td>
+                
+            </tr>
+
+            <tr>
+                <td>Intel Pentium II</td>
+                <td>233</td>
+                <td>636</td>
+                <td>Maio/97</td>
+                
+            </tr>
+
+            <tr>
+                <td>Intel Pentium II</td>
+                <td>266</td>
+                <td>775</td>
+                <td>Maio/97</td>
+               
+            </tr>
+
+            <tr>
+
+
+            </tr>
+        </tbody>
+    
+    </table>
+</body>
+</html>
